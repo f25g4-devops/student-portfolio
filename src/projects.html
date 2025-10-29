@@ -1,105 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Student Portfolio Projects" />
+    <meta name="author" content="Your Name" />
+    <title>My Portfolio - Projects</title>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Student Portfolio Projects">
-  <meta name="author" content="Your Name">
-  <title>My Portfolio - Projects</title>
+    <!-- Font + CSS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
 
-  <!-- Font + CSS -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles/style.css">
-</head>
-
-<body>
-
-  <!-- ===== Sub Header ===== -->
-  <div class="sub-header">
-    <div class="container heady">
-      <ul class="left-info">
-        <li><a href="#"><i class="fa fa-envelope"></i> yourname@email.com</a></li>
-        <li><a href="#"><i class="fa fa-phone"></i> +92-300-0000000</a></li>
-      </ul>
-      <ul class="right-icons">
-        <li><a href="#"><i class="fa fa-github"></i></a></li>
-        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- ===== Navbar ===== -->
-  <header>
-    <div class="container head">
-      <a class="navbar-brand" href="#"><h2>My Portfolio</h2></a>
-      <nav class="navbar-nav">
-        <a class="nav-link" href="/src/index.html">Home</a>
-        <a class="nav-link active" href="/src//projects.html">Projects</a>
-        <a class="nav-link" href="/src/profile.html">Profile</a>
-        <a class="nav-link" href="/src/skills.html">Skills</a>
-        <a class="nav-link" href="/src/achievements.html">Achievements</a>
-    </div>
-  </header>
-
-  <!-- ===== Page Heading ===== -->
-  <div class="page-heading">
-    <div class="container">
-      <h1>My Projects</h1>
-      <span>Showcasing my latest work & ideas</span>
-    </div>
-  </div>
-
-  <!-- ===== Projects Section ===== -->
-  <section class="team">
-    <div class="container">
-      <div class="section-heading">
-        <h2>Featured <em>Projects</em></h2>
-        <span>Explore some of my technical creations</span>
-      </div>
-
-      <div class="grid-3">
-        <!-- Project 1 -->
-        <div class="team-item">
-          <img src="assets/images/project1.jpg" alt="AI Diary App">
-          <div class="down-content">
-            <h4>AI Diary App</h4>
-            <span>React + Firebase + Node.js</span>
-            <p>An AI-powered journaling platform for kids that includes speech-to-text and voice feedback.</p>
-          </div>
-        </div>
-
-        <!-- Project 2 -->
-        <div class="team-item">
-          <img src="assets/images/project2.jpg" alt="E-Commerce Dashboard">
-          <div class="down-content">
-            <h4>E-Commerce Dashboard</h4>
-            <span>React + Firebase + Chart.js</span>
-            <p>Admin dashboard with product stats, authentication, and sales insights using Chart.js.</p>
-          </div>
-        </div>
-
-        <!-- Project 3 -->
-        <div class="team-item">
-          <img src="assets/images/project3.jpg" alt="FitBuddy App">
-          <div class="down-content">
-            <h4>FitBuddy App</h4>
-            <span>React Native + Expo + AsyncStorage</span>
-            <p>A fitness and wellness companion featuring daily reminders, charts, and progress tracking.</p>
-          </div>
-        </div>
+  <body>
+    <!-- ===== Sub Header ===== -->
+    <div class="sub-header">
+      <div class="container heady">
+        <ul class="left-info">
+          <li>
+            <a href="#"><i class="fa fa-envelope"></i> yourname@email.com</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-phone"></i> +92-300-0000000</a>
+          </li>
+        </ul>
+        <ul class="right-icons">
+          <li>
+            <a href="#"><i class="fa fa-github"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-behance"></i></a>
+          </li>
+        </ul>
       </div>
     </div>
-  </section>
 
-  <!-- ===== Footer ===== -->
-  <!-- Footer -->
+    <!-- ===== Navbar ===== -->
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <div class="head">
+            <a class="navbar-brand" href="index.html"><h2>My Portfolio</h2></a>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="profile.html">Profile</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="skills.html">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="achievements.html">Achievements</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ===== Page Heading ===== -->
+    <div class="page-heading">
+      <div class="container">
+        <h1>My Projects</h1>
+        <span>Showcasing my latest work & ideas</span>
+      </div>
+    </div>
+
+    <!-- ===== Projects Section ===== -->
+    <section class="featured-projects">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Featured <em>Projects</em></h2>
+          <span>Explore some of my technical creations</span>
+        </div>
+
+        <div class="grid-3">
+          <!-- Project 1 -->
+          <a
+            href="https://example.com/ai-diary-app"
+            target="_blank"
+            class="project-card"
+            style="text-decoration: none;"
+          >
+            <div class="project-image">
+              <img src="/assets/AI-dairy-app.jpeg" alt="AI Diary App" />
+            </div>
+            <div class="project-content">
+              <h4>AI Diary App</h4>
+              <span>React + Firebase + Node.js</span>
+              <p>
+                An AI-powered journaling platform for kids that includes
+                speech-to-text and voice feedback.
+              </p>
+            </div>
+          </a>
+
+          <!-- Project 2 -->
+          <a
+            href="https://example.com/ecommerce-dashboard"
+            target="_blank"
+            class="project-card"
+            style="text-decoration: none"
+          >
+            <div class="project-image">
+              <img
+                src="/assets/e-commerce-dashboard.jpeg"
+                alt="E-Commerce Dashboard"
+              />
+            </div>
+            <div class="project-content">
+              <h4>E-Commerce Dashboard</h4>
+              <span>React + Firebase + Chart.js</span>
+              <p>
+                Admin dashboard with product stats, authentication, and sales
+                insights using Chart.js.
+              </p>
+            </div>
+          </a>
+
+          <!-- Project 3 -->
+          <a
+            href="https://example.com/fitbuddy-app"
+            target="_blank"
+            class="project-card"
+            style="text-decoration: none"
+          >
+            <div class="project-image">
+              <img src="/assets/fitbuddy-app.jpeg" alt="FitBuddy App" />
+            </div>
+            <div class="project-content">
+              <h4>FitBuddy App</h4>
+              <span>React Native + Expo + AsyncStorage</span>
+              <p>
+                A fitness and wellness companion featuring daily reminders,
+                charts, and progress tracking.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <!-- Footer -->
     <footer>
       <div class="container text-center">
         <p>© 2025 Showcase Hub — Developed by <strong>Team Zynex</strong></p>
       </div>
-    </footer>
-
-</body>
+          
+    </footer>
+  </body>
 </html>
